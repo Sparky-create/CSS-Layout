@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+main{
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:90%;
+    height:100%;
+    padding: 100px;
+    border-radius:20px;
+}
+main p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size:15px;
+}
+main h1{
+    color:hsl(0, 0%, 95%);
+    padding-bottom: 50px;
+}
+main .btn{
+    color:hsl(0, 0%, 95%);
+    margin-top:50px;
+    border-radius:20px;
+    border-color:white;
+}
+.one{
+    background-color:hsl(31, 77%, 52%);
+    padding:50px;
+}
+.one .btn{
+    color:hsl(31, 77%, 52%);
+    padding:10px;
+}
+.two{
+    background-color:hsl(184, 100%, 22%);
+    padding:50px;
+}
+.two .btn{
+    color:hsl(184, 100%, 22%);
+    padding:10px;
+}
+.three{
+    background-color:hsl(179, 100%, 13%);
+    padding:50px;
+}
+.three .btn{
+    color:hsl(179, 100%, 13%);
+    padding:10px;
+}

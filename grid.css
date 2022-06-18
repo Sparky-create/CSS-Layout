@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* box-sizing:border-box;
+    overflow-x: hidden; */
+}
+main{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    margin:170px;
+    grid-template-columns:auto auto auto;
+    border-radius:20px;
+}
+main div{
+    padding:20px;
+}
+.one{
+    background-color: antiquewhite;
+    padding:31px;
+}
+.one h1{
+    padding-bottom: 40px;
+}
+.two h1{
+    padding-bottom:40px;
+}
+.three h1{
+    padding-bottom:40px;
+}
+.one .btn{
+    margin-top: 40px;
+}
+.two .btn{
+    margin-top:40px;
+}
+.three .btn{
+    margin-top:40px;
+}
+.btn{
+    padding:10px;
+    border-radius:17px;
+}
+.two{
+    background-color: rgb(238, 170, 82);
+    padding-left:25px;
+}
+.three{
+    background-color: rgb(192, 204, 83);
+    padding:31px;
+}
